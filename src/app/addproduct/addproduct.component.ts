@@ -13,11 +13,11 @@ export class AddproductComponent implements OnInit {
 
     productname: new FormControl(''),
     description: new FormControl(''),
-    address: new FormGroup({
-      street: new FormControl(''),
-      city: new FormControl(''),
-      country: new FormControl('')
-    })
+    // address: new FormGroup({
+    //   street: new FormControl(''),
+    //   city: new FormControl(''),
+    //   country: new FormControl('')
+    // })
  
   });
 
