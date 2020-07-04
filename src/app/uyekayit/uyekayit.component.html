@@ -1,0 +1,11 @@
+<h1>Üye Kayıt Formu</h1>
+<form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Enter name" [formControl]="name">
+    </div>
+<p>Girilen değer: {{name.value}}</p>
+  </form>
+
+<button (click)="Update()">Update</button>
+  <!-- <input type="text" [(ngModel)]="productname">
+  <label for="">{{productname}}</label> -->
